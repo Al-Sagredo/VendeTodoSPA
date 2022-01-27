@@ -1,2 +1,1 @@
-# VendeTodoSPA
-Prueba final módulo bases de datos
+Repositorio placeholder, por favor no calificar todavía
