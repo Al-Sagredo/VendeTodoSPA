@@ -1,9 +1,12 @@
 Proyecto VendeTodoSpa
+
 Modelo creado en draw.io
+
 Base de datos creada en ORACLE SQL DEVELOPER
 
 
 Habilidades a evaluar
+
 ● Crear modelo relacional.
 ● Crear base de datos.
 ● Insertar registros en tablas.
@@ -23,22 +26,32 @@ permitirá seguir siendo competitivos.
 A partir de lo anterior, VendeTodo SPA desea guardar en una base de datos la información
 tanto de empleados como de clientes y despachadores, los datos a guardar son los
 siguientes:
+
 ● Empleados: nombre, apellido, fecha de nacimiento, dirección, región, ciudad, país,
 teléfono, cargo.
+
 ● Clientes: nombre empresa, nombre contacto, email, dirección, región, ciudad, país,
 código postal y teléfono.
+
 ● Despachadores: nombre y teléfono de la empresa.
+
 Además, se desean guardar los datos de productos y la relación de estos con sus
 categorías y proveedores, por lo tanto, la información que se desea persistir es:
+
 ● Categoría: nombre de la categoría.
+
 ● Proveedores: nombre de la compañía, nombre del contacto, dirección, región, ciudad
 y teléfono.
+
 ● Productos: precio, stock y descontinuado.
+
 También, se desea persistir las órdenes de compra, considerando las respectivas relaciones
 entre productos, empleados, clientes y despachadores, para esto se debe considerar el uso
 de tablas intermedias si lo amerita. Se recomienda considerar las cardinalidades.
+
 ● Órdenes: fecha del requerimiento, fecha de envío, nombre a quien se envía, dirección,
 código postal, ciudad, región, país y vía de envío.
+
 Además, acerca de la compra, se desea guardar el valor, la cantidad de productos y
 descuentos sobre la compra, en el caso de que se efectúen cuando se realice una venta.
 
