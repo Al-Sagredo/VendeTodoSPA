@@ -1,0 +1,59 @@
+CREATE SEQUENCE categoria_id_seq
+    INCREMENT BY 1
+    START WITH 1
+    MINVALUE 0
+    NOMAXVALUE
+    CACHE 2;
+    
+CREATE SEQUENCE cliente_id_seq
+    INCREMENT BY 1
+    START WITH 1
+    MINVALUE 0
+    NOMAXVALUE
+    CACHE 2;
+    
+CREATE SEQUENCE despachador_id_seq
+    INCREMENT BY 1
+    START WITH 1
+    MINVALUE 0
+    NOMAXVALUE
+    CACHE 2;
+    
+    CREATE SEQUENCE empleado_id_seq
+    INCREMENT BY 1
+    START WITH 1
+    MINVALUE 0
+    NOMAXVALUE
+    CACHE 2;
+    
+    
+    CREATE SEQUENCE orden_id_seq
+    INCREMENT BY 1
+    START WITH 1
+    MINVALUE 0
+    NOMAXVALUE
+    CACHE 2;
+    
+    CREATE SEQUENCE producto_id_seq
+    INCREMENT BY 1
+    START WITH 1
+    MINVALUE 0
+    NOMAXVALUE
+    CACHE 2;
+    
+    CREATE SEQUENCE proveedor_id_seq
+    INCREMENT BY 1
+    START WITH 1
+    MINVALUE 0
+    NOMAXVALUE
+    CACHE 2;
+    
+    CREATE SEQUENCE compra_id_seq
+    INCREMENT BY 1
+    START WITH 1
+    MINVALUE 0
+    NOMAXVALUE
+    CACHE 2;
+    
+
+    
