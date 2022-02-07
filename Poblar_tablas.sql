@@ -1,5 +1,4 @@
---Realizar 5 inserciones a cada tabla.
---Categorias--------------------------------------------------------------------
+
 
 INSERT INTO CATEGORIAS (id_categoria, nombre)
 VALUES(CATEGORIA_ID_SEQ.nextval, 'antidepresivos');
